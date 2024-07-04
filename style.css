@@ -86,3 +86,47 @@ footer p {
     bottom: 20px;
     left: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    
+    html {
+      width: 100vw;
+    }
+    
+    nav {
+        text-align: center;
+        padding: 10% 0 10%;
+        flex-direction: column;
+    }
+
+    nav a {
+        padding-bottom: 10%;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    #page {
+      padding: 0;
+    }
+    
+    main {
+      flex-direction: column-reverse;
+      margin: 0 10% 0;
+    }
+
+    main img {
+        width: 95%;
+        margin-bottom: 20%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer p {
+        padding: 5% 10% 5%;
+    }
+
+  }
